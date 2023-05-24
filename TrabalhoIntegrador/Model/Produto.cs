@@ -18,7 +18,7 @@ namespace TrabalhoIntegrador.Model
 
         public Produto() 
         {
-
+         
         }
 
         public Produto(int id, string nome)
