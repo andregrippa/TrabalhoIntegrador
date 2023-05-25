@@ -32,6 +32,8 @@
             label2 = new Label();
             textBox1 = new TextBox();
             btnCadastrar = new Button();
+            textBox2 = new TextBox();
+            label3 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -68,12 +70,31 @@
             btnCadastrar.TabIndex = 3;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(40, 234);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(415, 23);
+            textBox2.TabIndex = 4;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(40, 216);
+            label3.Name = "label3";
+            label3.Size = new Size(33, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Valor";
             // 
             // TelaCadastroProduto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(710, 473);
+            Controls.Add(label3);
+            Controls.Add(textBox2);
             Controls.Add(btnCadastrar);
             Controls.Add(textBox1);
             Controls.Add(label2);
@@ -91,5 +112,7 @@
         private Label label2;
         private TextBox textBox1;
         private Button btnCadastrar;
+        private TextBox textBox2;
+        private Label label3;
     }
 }
