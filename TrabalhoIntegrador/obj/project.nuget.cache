@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ugQnh8pOQ5ctwziwgYinf8Z/W/YVPkDjMUm7JB3M+HrQnkZ50FIuIgvVFaJiIgIaI3OslO1N9IC3eXJVE/14BQ==",
+  "dgSpecHash": "SkfU/g6bZxuRubraUS+grquU+JFx8QV+j46zpUybLES2GSpBpm4z8zS2HzUPbvkbPDOgFm59tz2a8io8SxDXTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre.grippa\\Desktop\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andre.grippa\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\andre.grippa\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\andre.grippa\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\andre.grippa\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

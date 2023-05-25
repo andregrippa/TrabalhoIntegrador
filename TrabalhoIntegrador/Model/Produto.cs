@@ -12,29 +12,27 @@ namespace TrabalhoIntegrador.Model
 
         public string Nome { get; private set; }
 
-        public int QtdEstoque { get; private set; }
+        public int Valor { get; private set; }
 
-        public List<int> Assinantes { get; private set; }
 
         public Produto() 
         {
-          teste
+
         }
 
-        public Produto(int id, string nome)
+        public Produto(string nome)
         {
-            Id = id;
             Nome = nome;
         }
 
-        public Produto (int id, string nome, int qtdEstoque)
-        {
-            Id = id;
+        public Produto (string nome, int valor)
+        {            
             Nome = nome;
-            QtdEstoque = qtdEstoque;
-            Assinantes = new List<int>();   
-
+            Valor = valor;
+       
         }
+
+
     }
 
 }
