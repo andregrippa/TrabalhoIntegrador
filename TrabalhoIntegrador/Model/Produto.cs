@@ -27,8 +27,10 @@ namespace TrabalhoIntegrador.Model
         }
 
         public void Adicionar() => new ProdutoController().GravarProduto(this);
-        //public void Atualizar() => new ProdutoController().AtualizarProduto(this);
-        public void Remover() => new ProdutoController().Deletar(this.Id);
+        
+        public void Atualizar() => new ProdutoController().AtualizarProduto(this);
+
+        public void Remover() => new ProdutoController().DeletarProduto(this.Id);
 
 
     }
