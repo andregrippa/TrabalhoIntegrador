@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TrabalhoIntegrador.Controller;
+﻿using TrabalhoIntegrador.Controller;
 
 namespace TrabalhoIntegrador.Model
 {
@@ -30,7 +25,7 @@ namespace TrabalhoIntegrador.Model
         
         public void Atualizar() => new ProdutoController().AtualizarProduto(this);
 
-        public void Remover() => new ProdutoController().DeletarProduto(this.Id);
+        public void Remover() => new ProdutoController().Deletar(this.Id);
 
 
     }

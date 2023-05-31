@@ -40,7 +40,7 @@ namespace TrabalhoIntegrador.Controller
             connection.Execute("UPDATE [Produto] SET [Nome] = @Nome, [Valor] = @Valor WHERE [Id] = @Id", new { prod.Nome, prod.Valor, Id });
         }
 
-        public void DeletarProduto(int Id)
+        public void Deletar(int Id)
         {
             using var connection = new SqlConnection(conn);
             connection.Execute("DELETE [Produto] WHERE [Id] = @Id", new { Id });

@@ -25,7 +25,6 @@ namespace TrabalhoIntegrador.Model
         }
 
         public void Adicionar() => new UsuarioController().GravarUsuario(this);
-        //public void Atualizar() => new ProdutoController().AtualizarProduto(this);
         public void Remover() => new UsuarioController().DeletarUsuario(this.Id);
     }
 }

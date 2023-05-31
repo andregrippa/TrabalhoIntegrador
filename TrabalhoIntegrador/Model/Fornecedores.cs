@@ -16,6 +16,8 @@ namespace TrabalhoIntegrador.Model
             Id = id;
         }
         public void Adicionar() => new FornecedoresController().GravarFornecedor(this);
+
+        //Se necessário colocar, mas está na controller
         //public void Atualizar() => new ProdutoController().AtualizarProduto(this);
         public void Remover() => new FornecedoresController().Deletar(this.Id);
 
