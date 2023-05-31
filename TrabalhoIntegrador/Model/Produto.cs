@@ -25,7 +25,7 @@ namespace TrabalhoIntegrador.Model
 
         public void Remover() => new ProdutoController().Deletar(this.Id);
 
-
+        GT3000
     }
 
 }
