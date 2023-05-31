@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre.grippa\\Desktop\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj": {}
+    "C:\\Users\\raul.rosa\\Downloads\\TrabalhoIntegrador (1)\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre.grippa\\Desktop\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj": {
+    "C:\\Users\\raul.rosa\\Downloads\\TrabalhoIntegrador (1)\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre.grippa\\Desktop\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj",
+        "projectUniqueName": "C:\\Users\\raul.rosa\\Downloads\\TrabalhoIntegrador (1)\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj",
         "projectName": "TrabalhoIntegrador",
-        "projectPath": "C:\\Users\\andre.grippa\\Desktop\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj",
-        "packagesPath": "C:\\Users\\andre.grippa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre.grippa\\Desktop\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador\\obj\\",
+        "projectPath": "C:\\Users\\raul.rosa\\Downloads\\TrabalhoIntegrador (1)\\TrabalhoIntegrador\\TrabalhoIntegrador\\TrabalhoIntegrador.csproj",
+        "packagesPath": "C:\\Users\\raul.rosa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raul.rosa\\Downloads\\TrabalhoIntegrador (1)\\TrabalhoIntegrador\\TrabalhoIntegrador\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\andre.grippa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\raul.rosa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
@@ -68,7 +72,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
