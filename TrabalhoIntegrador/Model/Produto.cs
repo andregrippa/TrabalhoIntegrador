@@ -4,19 +4,19 @@ namespace TrabalhoIntegrador.Model
 {
     public class Produto
     {
-        public int Id { get;  set; }
+        public int Id { get; set; }
 
-        public string Nome { get;  set; }
+        public string Nome { get; set; }
 
-        public decimal Valor { get;  set; }
+        public decimal Valor { get; set; }
 
         public Produto() { }
 
         public Produto(string nome)
           => Nome = nome;
 
-        public Produto (string nome, decimal valor)
-        {            
+        public Produto(string nome, decimal valor)
+        {
             Nome = nome;
             Valor = valor;
         }
@@ -25,7 +25,8 @@ namespace TrabalhoIntegrador.Model
 
         public void Remover() => new ProdutoController().Deletar(this.Id);
 
-        GT3000
+        
     }
-
 }
+
+
